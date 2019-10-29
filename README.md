@@ -8,7 +8,7 @@ RDP structure step by step
 
 **Logon (EventID- 21,22)** - Indicates successful RDP logon and session instantiation, so long as the “Source Network Address” is NOT “LOCAL”.
 
-**Session Disconnect / re-connect (EventID- 24,25,39,40, 4778, 4779)** - The user has disconnected from an RDP session, so long as the “Source Network Address” is NOT “LOCAL”.
+**Session Disconnect / re-connect (EventID- 24, 25, 39, 40, 4778, 4779)** - The user has disconnected from an RDP session, so long as the “Source Network Address” is NOT “LOCAL”.
 
 **Logoff (EventID- 23, 4634, 4647, 9009)** - The user initiated a formal system logoff (versus a simple session disconnect).
 
