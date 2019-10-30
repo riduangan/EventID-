@@ -19,3 +19,8 @@ However, I’ve recently discovered another source of Event ID’s that provide 
 When a source machine attempts to connect to a target, various Event ID’s are logged here indicating the name/IP of the target as well as various related connection and disconnection messages which can also be helpful when investigating a system that is the source of RDP connections to other machines.
 
 https://ponderthebits.com/2018/02/windows-rdp-related-event-logs-identification-tracking-and-investigation/
+
+# Event ID for Clearing Windows Logs
+
+"Security" and [event_code] in [1100, 1102]) or
+"System" and [event_code] == 104)
