@@ -22,5 +22,5 @@ https://ponderthebits.com/2018/02/windows-rdp-related-event-logs-identification-
 
 # Event ID for Clearing Windows Logs
 
-"Security" and [event_code] in [1100, 1102]) or
-"System" and [event_code] == 104)
+**"Security"** and [event_code] in [1100, 1102]) or
+**"System"** and [event_code] == 104)
