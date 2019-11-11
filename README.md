@@ -32,3 +32,23 @@ event_code == "7036"
 param1 in ["Windows Defender", "Windows Firewall"] AND
 
 param2 == "stopped"
+
+# Event ID for Scheduled Task ~ Credit to Jaiminton.com
+
+This Event can be found under **Application and Service Logs > Microsoft > Windows > TaskScheduler**
+
+201 (Task registered)
+140 (Task Modified)
+141 (Task registered)
+142 (Task disabled)
+129 (Task Launched)
+
+Some other useful Event IDs which arguably provide more information than the above but may not be enabled on an OS include the below Security Event Logs:
+
+4698 (Scheduled Task Creation)
+4702 (Scheduled Task Modified)
+4699 (Scheduled Task Deleted)
+4701 (Scheduled Task Disabled)
+4700 (Scheduled Task Enabled)
+
+
