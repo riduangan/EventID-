@@ -54,7 +54,7 @@ Some other useful Event IDs which arguably provide more information than the abo
 
 
 
-=================
+================= Advanced Auditing Policies mapping to the Event ID ===========
 Group Policy Group	Group Policy Option	Event IDs
 Account Logon	Audit Credential Validation	4774, 4775, 4776, 4777
  	Audit Kerberos Authentication Service	4768, 4771, 4772
@@ -109,5 +109,3 @@ System	Audit IPsec Driver	4960, 4961, 4962, 4963, 4965, 5478, 5479, 5480, 5483, 
  	Audit Security State Change	4608, 4609 ,4616, 4621
  	Audit Security System Extension	4610, 4611, 4614, 4622, 4697
  	Audit System Integrity	4612, 4615, 4618, 4816, 5038, 5056, 5057, 5060, 5061, 5062, 6281
-Glbal Object Access Auditing	Registry (GOAA)	N/A
- 	File System (GOAA)	N/A
