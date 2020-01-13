@@ -84,7 +84,7 @@ Group Policy Group	Group Policy Option	Event IDs
 - Object Access	Audit Application Generated	4665, 4666 ,4667, 4668
 -	Audit Certification Services	4868, 4869, 4870, 4871, 4872, 4873, 4874, 4875, 4876, 4877, 4878, 4879, 4880, 4881, 4882, 4883, 4884, 4885, 4886 ,4887, 4888, 4889, 4890, 4891, 4892, 4893, 4894, 4895, 4896, 4897, 4898
 -	Audit Detailed File Share	5145
--	Audit File Share	5140, 5142, 5143, 5144, 5168
+-	Audit File Share	5140, 5142, 5143, 5144, 5168, 4663
 -	Audit File System	4664, 4985, 5051
 -	Audit Filtering Platform Connection	5031, 5140, 5150, 5151, 5154, 5155, 5156, 5157, 5158, 5159
 -	Audit Filtering Platform Packet Drop	5152, 5153
