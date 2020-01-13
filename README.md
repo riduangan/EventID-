@@ -56,10 +56,10 @@ Some other useful Event IDs which arguably provide more information than the abo
 
 ================= Advanced Auditing Policies mapping to the Event ID ===========
 Group Policy Group	Group Policy Option	Event IDs
-Account Logon	Audit Credential Validation	4774, 4775, 4776, 4777
- 	Audit Kerberos Authentication Service	4768, 4771, 4772
- 	Audit Kerberos Service Ticket Operations	4769, 4770
- 	Audit Other Account Logon Events	4649, 4778, 4779, 4800, 4801, 4802, 4803, 5378, 5632, 5633
+- Account Logon	Audit Credential Validation	4774, 4775, 4776, 4777
+- Audit Kerberos Authentication Service	4768, 4771, 4772
+Audit Kerberos Service Ticket Operations	4769, 4770
+Audit Other Account Logon Events	4649, 4778, 4779, 4800, 4801, 4802, 4803, 5378, 5632, 5633
 Account Management	Audit Application Group Management	4783, 4784, 4785, 4786, 4787, 4788, 4789, 4790
  	Audit Computer Account Management	4741, 4742, 4743
  	Audit Distribution Group Management	4744, 4745, 4746, 4747, 4748, 4749, 4750, 4751, 4752, 4753, 4759, 4760, 4761, 4762
