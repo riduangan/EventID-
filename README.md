@@ -52,9 +52,7 @@ Some other useful Event IDs which arguably provide more information than the abo
 4700 (Scheduled Task Enabled)
 
 
-
-
-================= Advanced Auditing Policies mapping to the Event ID ===========
+# Advanced Auditing Policies mapping to the Event ID
 Group Policy Group	Group Policy Option	Event IDs
 - Account Logon	Audit Credential Validation	4774, 4775, 4776, 4777
 - Audit Kerberos Authentication Service	4768, 4771, 4772
