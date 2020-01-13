@@ -58,54 +58,54 @@ Some other useful Event IDs which arguably provide more information than the abo
 Group Policy Group	Group Policy Option	Event IDs
 - Account Logon	Audit Credential Validation	4774, 4775, 4776, 4777
 - Audit Kerberos Authentication Service	4768, 4771, 4772
-Audit Kerberos Service Ticket Operations	4769, 4770
-Audit Other Account Logon Events	4649, 4778, 4779, 4800, 4801, 4802, 4803, 5378, 5632, 5633
-Account Management	Audit Application Group Management	4783, 4784, 4785, 4786, 4787, 4788, 4789, 4790
- 	Audit Computer Account Management	4741, 4742, 4743
- 	Audit Distribution Group Management	4744, 4745, 4746, 4747, 4748, 4749, 4750, 4751, 4752, 4753, 4759, 4760, 4761, 4762
- 	Audit Other Account Management Events	4782, 4793
- 	Audit Security Group Management	4727, 4728, 4729, 4730, 4731, 4732, 4733, 4734, 4735, 4737, 4754, 4755, 4756, 4757, 4758, 4764
- 	Audit User Account Management	4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4765, 4766, 4767, 4780, 4781, 4794, 5376, 5377
-Detailed Tracking	Audit DPAPI Activity	4692, 4693, 4694, 4695
- 	Audit Process Creation	4688, 4696
- 	Audit Process Termination	4689
- 	Audit RPC Events	5712
-DS Access	Audit Detailed Directory Service Replication	4928, 4929, 4930, 4931, 4934, 4935, 4936, 4937
- 	Audit Directory Service Access	4662
- 	Audit Directory Service Changes	5136, 5137, 5138, 5139, 5141
- 	Audit Directory Service Replication	4932, 4933
-Logon/Logoff	Audit Account Lockout	4625
- 	Audit IPsec Extended Mode	4978, 4979, 4980, 4981, 4982, 4983, 4984
- 	Audit IPsec Main Mode	4646, 4650, 4651, 4652, 4653, 4655, 4976, 5049, 5453
- 	Audit IPsec Quick Mode	4977, 5451, 5452
- 	Audit Logoff	4634, 4647
- 	Audit Logon	4624, 4625, 4648, 4675
- 	Audit Network Policy Server	6272, 6273, 6274, 6275, 6276, 6277, 6278, 6279, 6280
- 	Audit Other Logon/Logoff Events	4649, 4778, 4779, 4800, 4801, 4802, 4803, 5378, 5632, 5633
- 	Audit Special Logon	4964
-Object Access	Audit Application Generated	4665, 4666 ,4667, 4668
- 	Audit Certification Services	4868, 4869, 4870, 4871, 4872, 4873, 4874, 4875, 4876, 4877, 4878, 4879, 4880, 4881, 4882, 4883, 4884, 4885, 4886 ,4887, 4888, 4889, 4890, 4891, 4892, 4893, 4894, 4895, 4896, 4897, 4898
- 	Audit Detailed File Share	5145
- 	Audit File Share	5140, 5142, 5143, 5144, 5168
- 	Audit File System	4664, 4985, 5051
- 	Audit Filtering Platform Connection	5031, 5140, 5150, 5151, 5154, 5155, 5156, 5157, 5158, 5159
- 	Audit Filtering Platform Packet Drop	5152, 5153
- 	Audit Handle Manipulation	4656, 4658, 4690
- 	Audit Kernel Object	4659, 4660, 4661, 4663
- 	Audit Other Object Access Events	4671, 4691, 4698, 4699, 4700, 4701, 4702 ,5148, 5149, 5888, 5889, 5890
- 	Audit Registry	4657, 5039
- 	Audit SAM	4659, 4660, 4661, 4663
-Policy Change	Audit Audit Policy Change	4715, 4719, 4817, 4902, 4904, 4905, 4906, 4907, 4908, 4912
- 	Audit Authentication Policy Change	4713, 4716, 4717, 4718, 4739, 4864, 4865, 4866, 4867
- 	Audit Authorization Policy Change	4704, 4705, 4706, 4707, 4714
- 	Audit Filtering Platform Policy Change	4709, 4710, 4711, 4712, 5040, 5041, 5042, 5043, 5044, 5045, 5046, 5047, 5048, 5440, 5441, 5442, 5443, 5444, 5446, 5448, 5449, 5450, 5456, 5457, 5458, 5459, 5460, 5461, 5462, 5463, 5464, 5465, 5466, 5467, 5468, 5471, 5472, 5473, 5474, 5477
- 	Audit MPSSVC Rule-Level Policy Change	4944, 4945, 4946, 4947, 4948, 4949, 4950, 4951, 4952, 4953, 4954, 4956, 4957, 4958
- 	Audit Other Policy Change Events	4670, 4909, 4910, 5063, 5064, 5065, 5066, 5067, 5068, 5069, 5070, 5447, 6144, 6145
-Privilege Use	Audit Non-Sensitive Privilege Use	4672, 4673, 4674
- 	Audit Sensitive Privilege Use	4672, 4673, 4674
- 	Audit Other Privilege Use Events	N/A
-System	Audit IPsec Driver	4960, 4961, 4962, 4963, 4965, 5478, 5479, 5480, 5483, 5484, 5485
- 	Audit Other System Events	5024, 5025, 5027, 5028, 5029, 5030, 5032, 5033, 5034, 5035, 5037, 5058, 5059, 6400, 6401, 6402, 6403 ,6404, 6405, 6406, 6407, 6408
- 	Audit Security State Change	4608, 4609 ,4616, 4621
- 	Audit Security System Extension	4610, 4611, 4614, 4622, 4697
- 	Audit System Integrity	4612, 4615, 4618, 4816, 5038, 5056, 5057, 5060, 5061, 5062, 6281
+- Audit Kerberos Service Ticket Operations	4769, 4770
+- Audit Other Account Logon Events	4649, 4778, 4779, 4800, 4801, 4802, 4803, 5378, 5632, 5633
+- Account Management	Audit Application Group Management	4783, 4784, 4785, 4786, 4787, 4788, 4789, 4790
+-	Audit Computer Account Management	4741, 4742, 4743
+-	Audit Distribution Group Management	4744, 4745, 4746, 4747, 4748, 4749, 4750, 4751, 4752, 4753, 4759, 4760, 4761, 4762
+-	Audit Other Account Management Events	4782, 4793
+-	Audit Security Group Management	4727, 4728, 4729, 4730, 4731, 4732, 4733, 4734, 4735, 4737, 4754, 4755, 4756, 4757, 4758, 4764
+-	Audit User Account Management	4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4765, 4766, 4767, 4780, 4781, 4794, 5376, 5377
+- Detailed Tracking	Audit DPAPI Activity	4692, 4693, 4694, 4695
+-	Audit Process Creation	4688, 4696
+-	Audit Process Termination	4689
+-	Audit RPC Events	5712
+- DS Access	Audit Detailed Directory Service Replication	4928, 4929, 4930, 4931, 4934, 4935, 4936, 4937
+-	Audit Directory Service Access	4662
+-	Audit Directory Service Changes	5136, 5137, 5138, 5139, 5141
+-	Audit Directory Service Replication	4932, 4933
+- Logon/Logoff	Audit Account Lockout	4625
+-	Audit IPsec Extended Mode	4978, 4979, 4980, 4981, 4982, 4983, 4984
+-	Audit IPsec Main Mode	4646, 4650, 4651, 4652, 4653, 4655, 4976, 5049, 5453
+-	Audit IPsec Quick Mode	4977, 5451, 5452
+-	Audit Logoff	4634, 4647
+-	Audit Logon	4624, 4625, 4648, 4675
+-	Audit Network Policy Server	6272, 6273, 6274, 6275, 6276, 6277, 6278, 6279, 6280
+-	Audit Other Logon/Logoff Events	4649, 4778, 4779, 4800, 4801, 4802, 4803, 5378, 5632, 5633
+-	Audit Special Logon	4964
+- Object Access	Audit Application Generated	4665, 4666 ,4667, 4668
+-	Audit Certification Services	4868, 4869, 4870, 4871, 4872, 4873, 4874, 4875, 4876, 4877, 4878, 4879, 4880, 4881, 4882, 4883, 4884, 4885, 4886 ,4887, 4888, 4889, 4890, 4891, 4892, 4893, 4894, 4895, 4896, 4897, 4898
+-	Audit Detailed File Share	5145
+-	Audit File Share	5140, 5142, 5143, 5144, 5168
+-	Audit File System	4664, 4985, 5051
+-	Audit Filtering Platform Connection	5031, 5140, 5150, 5151, 5154, 5155, 5156, 5157, 5158, 5159
+-	Audit Filtering Platform Packet Drop	5152, 5153
+-	Audit Handle Manipulation	4656, 4658, 4690
+-	Audit Kernel Object	4659, 4660, 4661, 4663
+-	Audit Other Object Access Events	4671, 4691, 4698, 4699, 4700, 4701, 4702 ,5148, 5149, 5888, 5889, 5890
+-	Audit Registry	4657, 5039
+-	Audit SAM	4659, 4660, 4661, 4663
+- Policy Change	Audit Audit Policy Change	4715, 4719, 4817, 4902, 4904, 4905, 4906, 4907, 4908, 4912
+-	Audit Authentication Policy Change	4713, 4716, 4717, 4718, 4739, 4864, 4865, 4866, 4867
+-	Audit Authorization Policy Change	4704, 4705, 4706, 4707, 4714
+-	Audit Filtering Platform Policy Change	4709, 4710, 4711, 4712, 5040, 5041, 5042, 5043, 5044, 5045, 5046, 5047, 5048, 5440, 5441, 5442, 5443, 5444, 5446, 5448, 5449, 5450, 5456, 5457, 5458, 5459, 5460, 5461, 5462, 5463, 5464, 5465, 5466, 5467, 5468, 5471, 5472, 5473, 5474, 5477
+-	Audit MPSSVC Rule-Level Policy Change	4944, 4945, 4946, 4947, 4948, 4949, 4950, 4951, 4952, 4953, 4954, 4956, 4957, 4958
+-	Audit Other Policy Change Events	4670, 4909, 4910, 5063, 5064, 5065, 5066, 5067, 5068, 5069, 5070, 5447, 6144, 6145
+- Privilege Use	Audit Non-Sensitive Privilege Use	4672, 4673, 4674
+-	Audit Sensitive Privilege Use	4672, 4673, 4674
+-	Audit Other Privilege Use Events	N/A
+- System	Audit IPsec Driver	4960, 4961, 4962, 4963, 4965, 5478, 5479, 5480, 5483, 5484, 5485
+-	Audit Other System Events	5024, 5025, 5027, 5028, 5029, 5030, 5032, 5033, 5034, 5035, 5037, 5058, 5059, 6400, 6401, 6402, 6403 ,6404, 6405, 6406, 6407, 6408
+-	Audit Security State Change	4608, 4609 ,4616, 4621
+-	Audit Security System Extension	4610, 4611, 4614, 4622, 4697
+-	Audit System Integrity	4612, 4615, 4618, 4816, 5038, 5056, 5057, 5060, 5061, 5062, 6281
