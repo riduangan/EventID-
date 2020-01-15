@@ -33,7 +33,7 @@ param1 in ["Windows Defender", "Windows Firewall"] AND
 
 param2 == "stopped"
 
-# Event ID for Scheduled Task ~ Credit to Jaiminton.com
+# Event ID for Scheduled Task 
 
 This Event can be found under **Application and Service Logs > Microsoft > Windows > TaskScheduler**
 
