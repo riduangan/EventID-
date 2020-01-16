@@ -53,6 +53,9 @@ Some other useful Event IDs which arguably provide more information than the abo
 
 
 # Advanced Auditing Policies mapping to the Event ID
+On Windows Server run "gpmc.msc" to bring up the editor and navigate to the Advanced Auditing Policies.
+Below are the correspondence of the Event ID to the specific Audit setting.
+
 Group Policy Group	Group Policy Option	Event IDs
 - Account Logon	Audit Credential Validation	4774, 4775, 4776, 4777
 - Audit Kerberos Authentication Service	4768, 4771, 4772
