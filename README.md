@@ -51,6 +51,9 @@ Some other useful Event IDs which arguably provide more information than the abo
 4701 (Scheduled Task Disabled)
 4700 (Scheduled Task Enabled)
 
+# Event ID for Detecting Golden Ticket and Silver Ticket
+coming soon
+
 
 # Advanced Auditing Policies mapping to the Event ID
 On Windows Server run "gpmc.msc" to bring up the editor and navigate to the Advanced Auditing Policies.
