@@ -51,22 +51,54 @@ Some other useful Event IDs which arguably provide more information than the abo
 4701 (Scheduled Task Disabled)
 4700 (Scheduled Task Enabled)
 
+# Event ID for Sucessful Login Variation (4624)
+- Non allowed account
+  Within your business you may have accounts which you do not want used for logging on directly (either via keyboard or virtual session)
+  Most commonly this will be service and computer accounts.
+
+  Event ID = 4624 AND
+  Logon Type is 2 or 10 (See more about logon types here – http://techgenix.com/logon-types/ AND
+  Username matches expression ^SVC.* or .*\$$ (This is looking for service or computer accounts)
+  
+- Logons Directly to Domain Controller
+  event id = 4624 AND
+  logon type is 2 or 10 AND
+  Login targer is YOUR DC AND
+  NOT when user is DC ADMIN
+
+- Pass the Hash
+  Event ID = 4624 AND
+  logon type is 3 AND
+  Logon process is NtLmSsp AND
+  SubjectUserSID is S-1-0-0 AND
+  KeyLength is 0
+  
+ - Overpass the Hash
+  event id = 4624 AND
+  logon type is 9 AND
+  Logon process is seclogo
+  
+
+
 # Event ID for Failed Login Variation (4625)
 - Failed logins for User
-  event id = 4625 AND X number of failed logins in X minutes with the same username
+  event id = 4625 AND 
+  X number of failed logins in X minutes with the same username
+  
 - Password Spraying
-  event id = 4625 AND same source AND 2 or more username within x minutes
+  event id = 4625 AND 
+  same source AND 
+  2 or more username within x minutes
+  
 - Attempted to use disabled account
-  event id = 4625 AND sub Status Code is 0xC0000072
+  event id = 4625 AND 
+  sub Status Code is 0xC0000072
+  
 - Attempted to use expired account usage
-  event id = 4625 AND Sub Status Code is 0xC0000193
+  event id = 4625 AND 
+  Sub Status Code is 0xC0000193
   
  
-
-
-# Event ID for Detecting Golden Ticket and Silver Ticket
-coming soon
-
 
 # Advanced Auditing Policies mapping to the Event ID
 On Windows Server run "gpmc.msc" to bring up the editor and navigate to the Advanced Auditing Policies.
