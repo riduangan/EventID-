@@ -58,67 +58,67 @@ Some other useful Event IDs which arguably provide more information than the abo
   Within your business you may have accounts which you do not want used for logging on directly (either via keyboard or virtual session)
   Most commonly this will be service and computer accounts.
 
-  Event ID = 4624 AND
-  Logon Type is 2 or 10 (See more about logon types here – http://techgenix.com/logon-types/ AND
+  Event ID = 4624 **AND**
+  Logon Type is 2 or 10 (See more about logon types here – http://techgenix.com/logon-types/ **AND**
   Username matches expression ^SVC.* or .*\$$ (This is looking for service or computer accounts)
   
 - Logons Directly to Domain Controller
-  event id = 4624 AND
-  logon type is 2 or 10 AND
-  Login targer is YOUR DC AND
+  event id = 4624 **AND**
+  logon type is 2 or 10 **AND**
+  Login targer is YOUR DC **AND**
   NOT when user is DC ADMIN
 
 - Pass the Hash
-  Event ID = 4624 AND
-  logon type is 3 AND
-  Logon process is NtLmSsp AND
-  SubjectUserSID is S-1-0-0 AND
+  Event ID = 4624 **AND**
+  logon type is 3 **AND**
+  Logon process is NtLmSsp **AND**
+  SubjectUserSID is S-1-0-0 **AND**
   KeyLength is 0
   
  - Overpass the Hash
-  event id = 4624 AND
-  logon type is 9 AND
+  event id = 4624 **AND**
+  logon type is 9 **AND**
   Logon process is seclogo
   
 
 
 # Event ID for Failed Login Variation (4625)
 - Failed logins for User
-  event id = 4625 AND 
+  event id = 4625 **AND** 
   X number of failed logins in X minutes with the same username
   
 - Password Spraying
-  event id = 4625 AND 
-  same source AND 
+  event id = 4625 **AND** 
+  same source **AND** 
   2 or more username within x minutes
   
 - Attempted to use disabled account
-  event id = 4625 AND 
+  event id = 4625 **AND** 
   sub Status Code is 0xC0000072
   
 - Attempted to use expired account usage
-  event id = 4625 AND 
+  event id = 4625 **AND** 
   Sub Status Code is 0xC0000193
   
  # Event ID for Malicious AD SYNC (4662)
 - Typical behavious soomeone tries to use Mimikatz to sync DC
-  event it = 4662 AND
-  Properties = Replicating Directory Changes All* OR 1131f6ad-9c07-11d1-f79f-00c04fc2dcd2* AND
+  event it = 4662 **AND**
+  Properties = Replicating Directory Changes All* OR 1131f6ad-9c07-11d1-f79f-00c04fc2dcd2* **AND**
   Not when account is NT Authority or matching expression .*\$$
 
 - AD replication from non machine account
-  event id = 4662 AND 
-  AccessMask is 0x100 AND
+  event id = 4662 **AND** 
+  AccessMask is 0x100 **AND**
   Properties contains ‘1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 OR ‘1131f6ad-9c07-11d1-f79f-00c04fc2dcd2’ OR ’89e95b76-444d-4c62-991a-0facbeda640c
   
 - Extracting backup key
-  event id = 4662 AND
-  object type = SecretObject AND
-  AccessMask is 0x2 AND
+  event id = 4662 **AND**
+  object type = SecretObject **AND**
+  AccessMask is 0x2 **AND**
   ObjectName is BCKUPKEY
   
 - AD sync via new SPN (Service Principle Name)
-  event id = 4742 AND
+  event id = 4742 **AND**
   Service Principal Name matches expression *GC/*
 
 # Advanced Auditing Policies mapping to the Event ID
