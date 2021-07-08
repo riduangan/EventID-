@@ -98,7 +98,26 @@ Some other useful Event IDs which arguably provide more information than the abo
   event id = 4625 AND 
   Sub Status Code is 0xC0000193
   
- 
+ # Event ID for Malicious AD SYNC (4662)
+- Typical behavious soomeone tries to use Mimikatz to sync DC
+  event it = 4662 AND
+  Properties = Replicating Directory Changes All* OR 1131f6ad-9c07-11d1-f79f-00c04fc2dcd2* AND
+  Not when account is NT Authority or matching expression .*\$$
+
+- AD replication from non machine account
+  event id = 4662 AND 
+  AccessMask is 0x100 AND
+  Properties contains ‘1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 OR ‘1131f6ad-9c07-11d1-f79f-00c04fc2dcd2’ OR ’89e95b76-444d-4c62-991a-0facbeda640c
+  
+- Extracting backup key
+  event id = 4662 AND
+  object type = SecretObject AND
+  AccessMask is 0x2 AND
+  ObjectName is BCKUPKEY
+  
+- AD sync via new SPN (Service Principle Name)
+  event id = 4742 AND
+  Service Principal Name matches expression *GC/*
 
 # Advanced Auditing Policies mapping to the Event ID
 On Windows Server run "gpmc.msc" to bring up the editor and navigate to the Advanced Auditing Policies.
