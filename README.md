@@ -51,6 +51,19 @@ Some other useful Event IDs which arguably provide more information than the abo
 4701 (Scheduled Task Disabled)
 4700 (Scheduled Task Enabled)
 
+# Event ID for Failed Login Variation (4625)
+- Failed logins for User
+  event id = 4625 AND X number of failed logins in X minutes with the same username
+- Password Spraying
+  event id = 4625 AND same source AND 2 or more username within x minutes
+- Attempted to use disabled account
+  event id = 4625 AND sub Status Code is 0xC0000072
+- Attempted to use expired account usage
+  event id = 4625 AND Sub Status Code is 0xC0000193
+  
+ 
+
+
 # Event ID for Detecting Golden Ticket and Silver Ticket
 coming soon
 
