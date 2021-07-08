@@ -102,7 +102,7 @@ Some other useful Event IDs which arguably provide more information than the abo
   
  # Event ID for Malicious AD SYNC (4662)
 - Typical behavious soomeone tries to use Mimikatz to sync DC
-  event it = 4662 **AND**
+  event id = 4662 **AND**
   Properties = Replicating Directory Changes All* OR 1131f6ad-9c07-11d1-f79f-00c04fc2dcd2* **AND**
   Not when account is NT Authority or matching expression .*\$$
 
