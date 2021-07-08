@@ -27,7 +27,7 @@ https://ponderthebits.com/2018/02/windows-rdp-related-event-logs-identification-
 **"Security"** and [event_code] in [1100, 1102]) or
 **"System"** and [event_code] == 104)
 
-# Event ID for Disabling Windows Security Tools
+# Event ID for Disabling Windows Security Tools - Defender and MS Firewall
 
 log_name == "System" AND
 event_code == "7036"
